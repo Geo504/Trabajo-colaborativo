@@ -20,11 +20,12 @@ body{
 }
 .porfolio_Div-card{
     min-width: 18rem;
+    margin-bottom: .6rem;
 }
 .porfolio_H5{
     color: #3767c7;
     margin-top: 0.4rem;
 }
-.card-body .porfolio_bodyCard-p{
-    font-size: .9rem;
+.porfolio_bodyCard-p{
+    font-size: .8rem;
 }
