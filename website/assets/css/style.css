@@ -2,27 +2,30 @@ body{
     background: #fff;
 }
 
-.content-row {
-    padding-top: 40vh;
-  }
-  
-.white-bg {
-    background-color: white;
-    width: 100%;
-    display: inline-block;
-  }
-  
-.background-image {
+
+.tagline_bg-img {
     background-image: url("../img/bg.jpg");
-    background-position: center;
     background-size: cover;
-    
+    min-height: 50vh;
+    display: grid;
+    align-content: center;
+    padding: 0.6rem;
+}
+.tagline_bg-div{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.tagline_bg-div h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.tagline_bg-div h2{
+    font-size: 3.2rem;
+    background-color: white;
 }
 
-
-.first-heading_div, .second-heading_div{
-    padding: 3rem 0rem;
-}
 
 
 .porfolio_Div{
@@ -39,3 +42,13 @@ body{
 .porfolio_bodyCard-p{
     font-size: .8rem;
 } 
+
+
+
+.first-heading_div, .second-heading_div{
+    padding: 3rem 0rem;
+}
+.first-heading_div img, .second-heading_div img {
+    height: 100%;
+    width: 100%;
+}
