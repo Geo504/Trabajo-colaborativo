@@ -2,15 +2,15 @@ body{
     background: #fff;
 }
 
+.background-image {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
 
 
-
-
-
-
-
-
-.first-heading_div{
+.first-heading_div, .second-heading_div{
     padding: 3rem 0rem;
 }
 
@@ -28,4 +28,4 @@ body{
 }
 .porfolio_bodyCard-p{
     font-size: .8rem;
-}
+} 
