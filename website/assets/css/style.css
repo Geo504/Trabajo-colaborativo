@@ -1,3 +1,30 @@
 body{
-    background: #BDBDBD;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.first-heading_div{
+    padding: 3rem 0rem;
+}
+
+
+.porfolio_Div{
+    padding: 3rem 0rem;
+}
+.porfolio_Div-card{
+    min-width: 18rem;
+}
+.porfolio_H5{
+    color: #3767c7;
+    margin-top: 0.4rem;
+}
+.card-body .porfolio_bodyCard-p{
+    font-size: .9rem;
 }
