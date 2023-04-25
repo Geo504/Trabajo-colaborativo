@@ -52,3 +52,9 @@ body{
     height: 100%;
     width: 100%;
 }
+
+
+.contact_textarea-message{
+    resize: none;
+    height: 6rem;
+}
